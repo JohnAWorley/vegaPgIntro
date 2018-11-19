@@ -30,6 +30,7 @@ function getSongs(){
         url: '/songs'
     }).then( function( response ){
         console.log( 'back from GET with:', response );
+        // loop through results and display on DOM
     }).catch( function( err ){
         console.log( 'error getting data:', err );
     })
